@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* APP */
+
+.app-wrapper {
+  @apply bg-[#090f19] text-white w-full select-none;
+}
+
+/* Screens */
+.screen-wrapper {
+  @apply min-h-screen;
+}
+
+.screen-container {
+  @apply flex w-[99%] h-full p-4;
+}
+
+/* LoginScreen */
+.login-container {
+  @apply flex justify-center items-center flex-col;
+}
+
+.title-container {
+  @apply flex;
+}
+
+.title-text {
+  @apply font-bold text-3xl mx-3 text-sky-500;
+}
+
+/* Button */
+
+.btn {
+  @apply bg-[#11ece5] text-black font-bold px-6 py-2 
+  rounded-3xl sm:cursor-pointer;
+}
+
+/* Modal */
+.backdrop {
+  @apply absolute top-0 left-0 w-full min-h-screen bg-[rgba(0,0,0,0.6)] z-[1];
+}
+
+.modal {
+  @apply w-[90%] sm:max-w-[425px] my-0 mx-auto py-[40px] px-[20px]
+   bg-[#0f1724] text-[#c0d2ec] font-bold text-center rounded-2xl;
+}
+
+/* HomeScreen */
+.homescreen-container {
+  @apply flex flex-col w-full;
+}
+
+/* Header */
+.header {
+  @apply flex m-3;
+}
+
+.title-text {
+  @apply text-xl sm:text-2xl font-bold text-sky-500;
+}
+
+.connect-btn-container {
+  @apply hidden sm:inline absolute right-0 mr-3;
+}
+
+.mobile-connect-btn-container {
+  @apply inline sm:hidden absolute right-0 mr-3;
+}
+
+.content-container {
+  @apply flex flex-col justify-center items-center mt-20;
+}
+
+.input {
+  @apply bg-transparent outline-none border-[3px] 
+  border-sky-500 p-3 rounded-xl mb-4;
+}
+
+/* Feed */
+.feed-container {
+  @apply flex w-screen sm:w-full justify-center mb-3;
+}
+
+.card {
+  @apply bg-[#0f1724] w-[95%] sm:w-[100%] h-fit rounded-xl p-4;
+}
+
+.card-header {
+  @apply w-full flex flex-row justify-between mb-2;
+}
+
+.card-title {
+  @apply font-bold mr-3 mb-3 flex-wrap;
+}
+
+.card-body {
+  @apply flex;
+}
