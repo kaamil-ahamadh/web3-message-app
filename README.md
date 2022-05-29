@@ -1,6 +1,9 @@
 # DMessage (Decentralized Message)
 DMessage is a Web3 app (also known as DAPP) that allows us to send messages in a decentralized manner by virtue of blockchain technology. All the messages sent are directly stored in a DMessage smart contract.
 
+## Live Website
+https://dmessage.netlify.app/
+
 ## Highlights
 - All Messages are Stored in a Blockchain.
 - Deployed to six public blockchain protocols such as Rinkeby, Avax, Polygon, BSC etc.,
